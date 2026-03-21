@@ -10,6 +10,10 @@ int main()
     {
         std::cout<<*it<<'\n';
     }
+
+    it = numbers.end();
+    std::cout<<*it<<'\n';
+
     return 0;
 
 }
